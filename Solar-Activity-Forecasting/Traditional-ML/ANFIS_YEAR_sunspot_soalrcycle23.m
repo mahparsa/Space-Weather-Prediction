@@ -1,11 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%in  this model amygdala have output from thalamous  
-%in this method we train a network with conditional stimuli
-%then evaluation of function of system estimate and Emotional asignal prepare
-%this estimate is in manner that responce of system to new stimuli was supposed is correct and the responce was supposed as a valid target 
-%agai the system costruct with new stimula and target 
-%for this system output for conditional stimula was computed and the output contrast with target and emotional signl prepar 
-%insted use of whole of train or condition stimula we use 1 of them   
 
 %%GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOODDDDDDDDDDDDDDDDDDDDDDD
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%     test size 1800 t0 2000
@@ -94,7 +86,6 @@ Ea=evalfis(PPT1,fismatA);
 
 
 EET1=Ea;
-% EET1 =ET.*(max(t)-min(t))+min(t) ;
 ERROR1=EET1-OUTT;
 PER1=mse(ERROR1);
 ROOTPER1=norm(EET1-OUTT)/sqrt(length(EET1));
