@@ -7,3 +7,4 @@ https://ieeexplore.ieee.org/document/8534330
 
 # ANFIS: Adaptive Neuro Fuzzy System 
 I have used *ANFIS* to predict different sets of sunspot numbers.  
+# LoLiMoT: 
