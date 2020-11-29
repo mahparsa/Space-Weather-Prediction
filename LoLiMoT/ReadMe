@@ -3,4 +3,12 @@ Predicting AE using "LOCAL LINEAR MODEL TREES (LOLIMOT) TOOLBOX FOR NONLINEAR SY
 
 The code is realted to the the paper "Neuro-fuzzy models for geomagnetic storms prediction: Using the auroral electrojet index". you can find the paper here: https://ieeexplore.ieee.org/document/6975802?reload=true&arnumber=6975802
 
+@inproceedings{parsapoor2012neuro,
+  title={Neuro-fuzzy models, BELRFS and LoLiMoT, for prediction of chaotic time series},
+  author={Parsapoor, Mahboobeh and Bilstrup, Urban},
+  booktitle={2012 International Symposium on Innovations in Intelligent Systems and Applications},
+  pages={1--5},
+  year={2012},
+  organization={IEEE}
+}
 
